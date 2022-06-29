@@ -1,0 +1,9 @@
+.department {
+    cursor: pointer;
+}
+
+.department:hover {
+    color: white;
+    transition: .4s all;
+    background-color: #064b58;
+}
