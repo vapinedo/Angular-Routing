@@ -14,6 +14,7 @@ const routes: Routes = [
     path: 'departments/:id', 
     component: DepartmentDetailComponent ,
     children: [
+      { path: '', redirectTo: 'overview', pathMatch: 'full' },
       { path: 'overview', component: DepartmentOverviewComponent },
       { path: 'contact', component: DepartmentContactComponent },
     ]
